@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body{
+    background-color: yellowgreen;
+}
+h1{
+    color: rgb(1, 70, 18);
+}
+h2{
+    color: yellow;
+}
+h1#principal{
+    text-align: center;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    background-color: blueviolet;
+}
+/*
+    em HTML é id = CSS é #
+    em HTML é class = em CSS é .
+*/
+.tudo{
+  color: rgb(202, 128, 141); 
+}
+.nunca{
+    color: rgb(209, 3, 209);
+}
+.destaque{
+    background-color: darkblue;
+}

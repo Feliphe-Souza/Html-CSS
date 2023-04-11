@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* Seletores Personalziados
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        a{
+            color: yellow;
+            text-decoration: none;
+        }
+        a:visited{
+            color: lightgreen;
+        }
+        a::after {
+           content: "[link]";
+           font-weight: 200;
+           text-decoration: none;
+           color: purple;
+        }
+        a:active{
+            color: black;
+        }
+        .especial{
+            background-color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=at3FPJaAwoY&list=RDat3FPJaAwoY&start_radio=1" target="_blank" class="especial">youtube</a></li>
+        <li><a href="https://twitter.com/home" target="_blank">twitter</a></li>
+        <li><a href="https://www.twitch.tv" target="_blank">twitch</a></li>
+    </ul>
+</body>
+</html>

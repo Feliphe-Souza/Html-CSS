@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'android';
+    src: url(fonts/android.otf) format(OpenType);
+}
+body{
+    background-color: #00E3CC;
+    margin: 0px;
+    }
+    header{
+        background-image: linear-gradient( to bottom, #32A89C, #009688,#00635A );
+        padding: 10px;
+    }
+    header > h1{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+    }
+    header > p{
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: normal;
+    }
+    nav{
+      padding: 3px;
+      }
+    nav > a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    main{
+        background-color: white;  
+        padding: 15px;
+        margin:auto;
+        max-width: 800px;
+        min-width: 300px;
+        box-shadow: 1px 3px 12px 4px rgba(0, 0, 0, 0.411);
+        border-radius: 0px 0px 10px 10px;
+        text-indent: 30px;
+        }
+        main img {
+            width: 100%;
+        }
+        main img.android {
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+    h2{
+        font-family: android;
+        color: green;
+        text-indent: 10px;
+        }
+    h3{
+        font-family: android;
+        color: green;
+        background-image: linear-gradient( to right, #44e3d35d 20%, #00e3cc2f 50%, white 80%);
+        text-indent: 10px;
+    }
+    h4{
+        background-color: green;
+        padding: 10px;
+        margin: 0px;
+        border-radius: 10px 10px 0px 0px;
+        color: white;
+        text-indent: 5px;
+    }
+    article > aside{
+        background-color: #009688;
+        border-radius: 10px 10px;
+        }
+        footer{
+            background-color: #00635A;
+            color: white;
+            text-align: center;
+            border-top: 30px;
+        }
+        section{
+            border-bottom: 30px;
+            }
+            .links{
+                text-decoration: none;
+                background-image: linear-gradient( to right, #00E3CC, #44E3D3, white);
+            }
+            .links:hover{
+                text-decoration: underline;
+            }
+            .letra{
+                color: #00635A;
+                font-weight: bold;
+            }
+           
